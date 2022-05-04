@@ -1,0 +1,13 @@
+@import "sections/header/styles.css";
+@import "sections/relax/styles.css";
+@import "sections/steps/styles.css";
+@import "sections/footer/styles.css";
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0
+}
