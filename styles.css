@@ -1,8 +1,12 @@
-@import "sections/header/styles.css";
-@import "sections/relax/styles.css";
-@import "sections/steps/styles.css";
-@import "sections/footer/styles.css";
-
+@import "sections/A\ Header/styles.css";
+@import "sections/B\ Relax/styles.css";
+@import "sections/C\ Video/styles.css";
+@import "sections/D\ Courses/.css";
+@import "sections/E\ Price\ Plan/styles.css";
+@import "sections/F\ Testimonial/styles.css";
+@import "sections/G\ Subscribe/styles.css";
+@import "sections/H\ Join/styles.css";
+@import "sections/I\ Footer/styles.css";
 
 * {
     box-sizing: border-box;
