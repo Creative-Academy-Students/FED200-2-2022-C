@@ -1,7 +1,105 @@
-.relax {
-    background-color: aqua;
+.stats-right {
+    height: 60vh;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    margin-left: 440px;
+    margin-top: 200px;
 }
-
-.relax__button {
-    border: 1px solid red;
+.signature {
+    color: #FF9F66;
+    font-family: cursive;
+    font-size: 24px;
+    margin-left: 450px;
+    margin-top: -304px;
+}
+.subtext {
+    font-family: 16px;
+    font-size: 12px;
+    margin-left: 450px;
+    margin-top: 12px;
+    color: grey;
+}
+span {
+    font-size: 14px;
+    color: black;
+}
+.info1{
+    margin-left: 120px;
+    margin-bottom: -310px;
+}
+.info1 h4{
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+}
+.info1 h5{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: -40px;
+}
+.info1 p{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    margin-top: -5px;
+}
+.info2{
+    position: absolute;
+    margin-top: 89px;
+    margin-left: 400px;
+}
+.info2 h4{
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+}
+.info2 h5{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: -40px;
+}
+.info2-p{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    margin-top: -5px;
+}
+.info3{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 120px;
+}
+.info3 h4{
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+}
+.info3 h5{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: -40px;
+}
+.info3-p{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    margin-top: -5px;
+}
+.info4{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 400px;
+}
+.info4 h4{
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+}
+.info4 h5{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: -40px;
+}
+.info4-p{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    margin-top: -5px;
 }

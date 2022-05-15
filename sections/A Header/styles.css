@@ -1,7 +1,48 @@
-.header {
-    background: pink;
+#logo {
+    width: 70px;
+    margin-left: 50px;
+}
+#navbar {
+    width: 88%;
+    height: 70px;
+    margin: 0 auto;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ebeff6;
+    margin-top: 30px;
+    border-radius: 4px;
 }
 
-.header__title {
-    color: red;
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 60px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: grey;
+    transition: 0.5s all ease;
+}
+nav ul li a:hover {
+    color: #FF9F66;
+    text-decoration: underline;
+}
+
+#sign-in {
+    text-decoration: none;
+    color: black;
+    margin-left: 380px;
+}
+#sign-up {
+    background-color: rgb(252, 219, 157);
+    color: #FF9F66;
+    padding: 8px 24px;
+    border-radius: 4px;
+    border-color: #FF9F66;
+    border: 0.5px solid #FF9F66;
+    text-decoration: none;
+    margin-right: 80px;
 }
