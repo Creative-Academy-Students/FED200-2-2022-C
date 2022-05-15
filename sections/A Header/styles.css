@@ -1,3 +1,9 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background: #F5F6F9;
+}    
 #logo {
     width: 70px;
     margin-left: 50px;
@@ -10,7 +16,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #ebeff6;
+    background-color: #fff;
     margin-top: 30px;
     border-radius: 4px;
 }
@@ -35,14 +41,129 @@ nav ul li a:hover {
     text-decoration: none;
     color: black;
     margin-left: 380px;
+    margin-right: 36px;
 }
 #sign-up {
-    background-color: rgb(252, 219, 157);
-    color: #FF9F66;
+    background-color: #FF9F66;
+    color: #FFF;
     padding: 8px 24px;
     border-radius: 4px;
     border-color: #FF9F66;
     border: 0.5px solid #FF9F66;
     text-decoration: none;
     margin-right: 80px;
+}
+
+.info {
+    margin: 150px 120px;
+}
+
+.info h1 {
+    text-align: left;
+    font-size: 52px;
+    font-weight: bold;
+    color: black;
+}
+.info p {
+    text-align: left;
+    font-size: 20px;
+    color: grey;
+    margin-top: 10px;
+}
+
+.buttons {
+    margin-left: 116px;
+    margin-top: -120px;
+}
+
+#get-started {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 20px;
+    padding: 10px 20px;
+    background-color: #FF9F66;
+    color: rgb(249, 246, 246);
+    text-decoration: none;
+    border-radius: 4px;
+}
+#learn-more {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid #fff;
+    color: black;
+    text-decoration: none;
+    margin-left: 12px;
+    border-radius: 4px;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.box1 {
+    width: 33%;
+    height: 200px;
+    background-color: #fff;
+    margin-left: 120px;
+    margin-top: 120px;
+    border-radius: 4px;
+}
+.box1 h3 {
+    margin-top: 26px;
+    margin-left: 20px;
+}
+
+.box2 {
+    width: 33%;
+    height: 200px;
+    background-color: #fff;
+    margin-top: 120px;
+    margin-left: 160px;
+    border-radius: 4px;
+}
+.box2 h3 {
+    margin-top: 26px;
+    margin-left: 16px;
+}
+
+.box3 {
+    width: 80%;
+    height: 200px;
+    background-color: #FEAEA3;
+    margin-top: 120px;
+    margin-left: 200px;
+    margin-right: 60px;
+    border-radius: 4px;
+}
+.box3 h3 {
+    margin-top: 26px;
+    margin-left: 26px;
+}
+.box3 p {
+    margin-top: 26px;
+    margin-left: 26px;
+    margin-bottom: 10px;
+}
+.box3 a {
+    text-decoration: none;
+    margin-top: 50px;
+    margin-left: 26px;
+    color: black;
+    font-size: 12px;
+}
+
+/* .number {
+    font-size: 14px;
+    color: black;
+    margin-left: 10px;
+} */
+
+.stripe {
+    height: 200px;
+    width: 100%;
+    margin-top: -150px;
+    background-color: #348F7F;
+    z-index: -1;
 }
