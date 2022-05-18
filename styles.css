@@ -4,9 +4,9 @@
 @import "sections/D\ Courses/.css";
 @import "sections/E\ Price\ Plan/styles.css";
 @import "sections/F\ Testimonial/styles.css";
-@import "sections/G\ Subscribe/styles.css";
-@import "sections/H\ Join/styles.css";
-@import "sections/I\ Footer/styles.css";
+@import "sections/g-subscribe/styles.css";
+@import "sections/i-join/styles.css";
+@import "sections/i-footer/styles.css";
 
 
 * {
@@ -15,4 +15,5 @@
 
 body {
     margin: 0
+    font-family: 
 }
