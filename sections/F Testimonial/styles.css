@@ -10,6 +10,10 @@
 .test__info {
   font-family: Arial, Helvetica, sans-serif;
   padding: 1rem;
+  max-width: 20rem;
+  justify-content: center;
+  text-align: center;
+
 }
 .test__image {
   border-radius: 50%;
