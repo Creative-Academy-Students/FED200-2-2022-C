@@ -1,7 +1,17 @@
+.join-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+
+}
+
+
 .join-left{
     display: flex;
     flex-direction: column;
-    align-items: left;
+    /* align-items: left; */
     max-width: auto;
     padding: 3rem;
     justify-content: center;
@@ -23,6 +33,13 @@
 
 .join-card{
     display: flex;
+}
+
+.join-card form {
+    display: flex;
     flex-direction: column;
-    align-items: right;
+    background-color: #ccc;
+    padding: 10px;
+    height: 300px;
+    width: 100%;
 }
