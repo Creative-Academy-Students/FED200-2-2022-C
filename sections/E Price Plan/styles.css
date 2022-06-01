@@ -1,0 +1,14 @@
+.price-heading{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.price-paragraph{
+    display: flex;
+    flex-direction: column;
+    max-width: 22rem;
+    justify-content: center;
+    text-align: center;
+}

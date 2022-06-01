@@ -1,0 +1,28 @@
+.join-left{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    max-width: auto;
+    padding: 3rem;
+    justify-content: center;
+}
+
+.join-heading{
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    padding-top: 4rem;
+
+
+}
+
+.join-paragragh{
+    display: flex;
+    width: 22rem;
+}
+
+.join-card{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+}
