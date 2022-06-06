@@ -16,7 +16,37 @@
 .price-paragraph{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 22rem;
+    text-align: center;
+
+    
+}
+
+
+
+.section_list{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.section_item{ 
+    background: white;
+    margin: 0.8rem;
+    border-radius: 6px;
     justify-content: center;
     align-items: center;
+    width: 20rem;
+    height: 20rem;
+
+
+}
+.section_item_primary {
+    background: orange;
+    height: 6rem;
 }
