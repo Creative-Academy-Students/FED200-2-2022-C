@@ -1,0 +1,45 @@
+.join-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+
+}
+
+
+.join-left{
+    display: flex;
+    flex-direction: column;
+    /* align-items: left; */
+    max-width: auto;
+    padding: 3rem;
+    justify-content: center;
+}
+
+.join-heading{
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    padding-top: 4rem;
+
+
+}
+
+.join-paragragh{
+    display: flex;
+    width: 22rem;
+}
+
+.join-card{
+    display: flex;
+}
+
+.join-card form {
+    display: flex;
+    flex-direction: column;
+    background-color: #ccc;
+    padding: 10px;
+    height: 300px;
+    width: 100%;
+}
