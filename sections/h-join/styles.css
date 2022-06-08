@@ -23,7 +23,6 @@
     width: 18rem;
     padding-top: 4rem;
 
-
 }
 
 .join-paragragh{
@@ -38,8 +37,16 @@
 .join-card form {
     display: flex;
     flex-direction: column;
-    background-color: #ccc;
+    background-color: rgb(231, 231, 231);
     padding: 10px;
     height: 300px;
     width: 100%;
+}
+
+.join-button{ 
+    background-color: orange;
+    padding: 0.5rem;
+    width: 6rem;
+    border-radius: 0.1rem;
+    
 }
