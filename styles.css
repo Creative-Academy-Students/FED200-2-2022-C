@@ -8,12 +8,585 @@
 @import "sections/i-join/styles.css";
 @import "sections/i-footer/styles.css";
 
+/* COMMON STYLES START */
+
 
 * {
     box-sizing: border-box;
-}
+    font-family: 'Lato', sans-serif;
+ }
+
+ /* COMMON STYLES END */
+
 
 body {
     margin: 0
-    font-family: 
+    /* font-family:  */
 }
+
+
+/*          SECTION A - HEADER STYLING              */
+
+/* HERO & NAVBAR STYLING */
+
+#logo {
+    width: 100px;
+    height: 50px;
+    margin: 0 1rem;
+    padding-left: 1rem;
+    cursor:pointer;
+}
+#navbar {
+    width: 90%;
+    height: 70px;
+    margin: 0 auto;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    margin-top: 30px;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+}
+nav ul a {
+    text-decoration: none;
+    color: grey;
+    
+    margin: 0 1rem;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    transition: 0.5s all ease;
+}
+nav ul li:hover {
+    color: #FF9F66;
+    text-decoration: underline;
+}
+#sign-in {
+    text-decoration: none;
+    color: black;
+    cursor:pointer;
+    transition: all .5s ease;
+}
+#sign-in:hover{
+    color: #FF9F66;
+}
+#sign-up {
+    background-color: rgb(241, 223, 189);
+    color: #FF9F66;
+    padding: 8px 24px;
+    border-radius: 4px;
+    border-color: #FF9F66;
+    border: 0.5px solid #FF9F66;
+    text-decoration: none;
+    margin: 0 1rem;
+    cursor:pointer;
+    transition: all .5s ease;
+}
+#sign-up:hover{
+    background-color: #FF9F66;
+    color: #fff;
+}
+.banner{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.banner-info{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 5rem;
+    line-height: 1.3;
+}
+.banner-info h1{
+    font-size: 3rem;
+    max-width: 20rem;
+}
+.banner-info p{
+    font-size: 1.2rem;
+}
+.banner-info p{
+    color: rgb(35, 34, 34);
+    max-width: 28rem;
+}
+#yoga-person{
+    position: absolute;
+    z-index: -100;
+    transform: scale(3.6) translate(208px, 55px);
+}
+.banner-btns{
+    padding: .25rem 5rem;
+    margin-top: -2rem;
+}
+#get-started {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 20px;
+    padding: 15px 20px;
+    background-color: #FF9F66;
+    color: rgb(249, 246, 246);
+    text-decoration: none;
+    border-radius: 4px;
+    cursor:pointer;
+    transition: all .5s ease;
+}
+
+#get-started:hover{
+    background-color:#ee6515;
+    transform: scale(2);
+}
+#learn-more {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px 20px;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    text-decoration: none;
+    margin-left: 12px;
+    border-radius: 4px;
+    cursor:pointer;
+    transition: all .5s ease;
+}
+#learn-more:hover{
+    background-color: black;
+    color: #fff;
+    transform: scale(2);
+}
+
+/* SECITON CONTAINER STYLING */
+
+.section__container{
+    background: #348F7F;
+    /* height: 20rem; */
+    height: auto;
+    padding-bottom: 1rem;
+    margin-top: 10rem;
+  }
+  .section__list {
+    display: flex;
+    list-style: none;
+    margin: 0; 
+    padding: 0;
+    flex-wrap: wrap;
+  }
+  .section__item{
+    background: white;
+    margin: 0.6rem;
+    padding: 0.5rem;
+    border-radius: 6px;
+    width: calc(50% - 1rem);
+    display: block;
+  }
+  
+  @media (min-width: 20rem) {
+    .section__item{
+      width: (50% - 1rem);
+    }
+  }
+  
+  @media (min-width: 40rem) {
+    .section__item{
+      width: calc(25% - 1rem);
+    }
+  }
+  .section__item_primary {
+    background: #FEAEA3;
+    width: 48%;
+  }
+  
+  @media (min-width: 40rem) {
+    .section__primary{
+      width: calc(48% - 1rem);
+    }
+  }
+  
+  .section__title-row{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+  }
+  /* .section__title{
+    
+  } */
+  .section__number{
+    font-size: 2rem;
+    margin-left: 1rem;
+    color: #aaa;
+  }
+  .section__image{
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+  }
+  .section__image-primary{
+    width: 30%;
+    height: 5rem;
+  }
+  .section__primary-text{
+    max-width: 23rem;
+  }
+  .section__number-primary{
+    color: grey;
+    display: flex;
+  }
+  .section__title-primary{
+    font-size: 1.3rem;
+    max-width: 8rem;
+  }
+  #read-more{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: .8rem;
+    cursor: pointer;
+  }
+  #read-more:hover{
+    color: blue;
+    cursor: pointer;
+  }
+  
+  
+  /* MEDIA QUERIES */
+  
+  @media (max-width: 1400px){
+    .section__list{
+      display: flex;
+      flex-wrap: wrap;
+      margin: 1rem auto;
+    }
+    .section__container{
+      height: auto;
+    
+    }
+    
+  }
+  
+  @media (max-width: 800px) {
+    .section__item_primary{
+      width: 100%;
+    }
+    .section__item{
+      flex-grow: 1
+    }
+  }
+  
+  /* @media (max-width: 500px){
+    flex-direction: column;
+    flex-wrap: ;
+    padding: 1rem 1rem;
+  } */
+  /* END OF MEDIA QUERIES */
+
+
+
+  /*          END OF SECTION A - HEADER STYLING              */
+
+
+
+  /*           SECTION B - RELAX STARTS HERE                  */
+
+.stats-container {
+    display: flex;
+    position: relative;
+    height: 100vh;
+}
+
+.stats-left {
+    display: flex;
+    flex-direction: row;
+    padding-left: 6rem;
+    padding-top: 8rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 40rem;
+}
+.info1 h4{
+    font-size: 40px;
+}
+.info1 h5{
+    font-weight: bold;
+    font-size: 16px;
+}
+.info1 p{
+    font-size: 14px;
+}
+.info2 h4{
+    font-size: 40px;
+}
+.info2 h5{
+    font-weight: bold;
+    font-size: 16px;
+}
+.info2-p{
+    font-size: 14px;
+}
+.info3 h4{
+    font-size: 40px;
+}
+.info3 h5{
+    font-weight: bold;
+    font-size: 16px;
+}
+.info3-p{
+    font-size: 14px;
+}
+.info4 h4{
+    font-size: 40px;
+}
+.info4 h5{
+    font-weight: bold;
+    font-size: 16px;
+}
+.info4-p{
+    font-size: 14px;
+}
+
+/* END OF STATS LEFT */
+
+
+/* START OF STATS RIGHT */
+
+.stats-right {
+    flex-direction: column;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    margin: auto;
+}
+.signature {
+    color: #FF9F66;
+    font-family: cursive;
+    font-size: 24px;
+}
+.subtext {
+    font-family: 16px;
+    font-size: 12px;
+    color: grey;
+}
+span {
+    font-size: 14px;
+    color: black;
+}
+
+
+
+/*                SECTION B - RELAX ENDS HERE                */
+
+
+
+/*           SECTION C - VIDEO STYLING STARTS HERE            */
+.video-container{
+    height: 100vh;
+    width: 100%;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.video-div{
+    display: flex;
+    justify-content: center;
+}
+#video{
+    border-radius: 10px;
+}
+/* .video-left-line{
+    position: absolute;
+    width: 80px;
+    height: 4px;
+    background-color: #FF9F66;
+    margin-top: 75px;
+    margin-left: 220px;
+} */
+.video-text-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+.video-text-left{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    max-width: 30rem;
+    padding-left: 13.5rem;
+
+}
+.video-text-right{
+    flex-basis: 45%;
+    font-family: Arial;
+    font-size: 14px;
+    color: #595959;
+    padding: 2rem 2rem;
+
+}
+.video-subtext{
+    font-size:1.1rem;
+}
+#video-button{
+    background-color: #FF9F66;
+    color: #fff;
+    width: 140px;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-size: .9rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 20px;
+    padding: 15px 20px;
+    color: rgb(249, 246, 246);
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all .5s ease;
+    cursor:pointer;
+}
+#video-button:hover{
+    background-color: #ee6515;
+}
+
+/*           SECTION C - VIDEO STYLING ENDS HERE            */
+
+
+/*           SECTION D - COURSES STYLING STARTS HERE            */
+
+
+/* body {
+    margin: 0;
+    padding: 0;
+} */
+.courses-container{
+    height: 100vh;
+    width: 100%;
+}
+img{
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+}
+.container-1 {
+    display: flex;
+    justify-content: center;
+}
+.heading-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    order: -1;
+}
+.heading-content h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.heading-content-p{
+    font-size: 16px;
+    text-align: center;
+    max-width: 30rem;
+}
+.container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem;
+    margin: 0 auto;
+}
+.card-headings {
+    max-width: 15rem;
+}
+.card-p {
+    max-width: 20rem;
+}
+.fa-star {
+    color: #FF9F66;
+}
+.card {
+    flex: 1 1 33%;
+    margin: 0 auto;
+    justify-content: center;
+}
+.card__rating-text {
+    color: #FF9F66;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-left: 2.6rem;
+}
+.card__rating-text:hover{
+    color: #ee6515;
+    text-decoration: underline;
+}
+.card__text-black {
+    color: black;
+    cursor: pointer;
+}
+.card__text-black:hover{
+    color: #FF9F66;
+    text-decoration: underline;
+}
+.card__1 {
+    height: 400px;
+    width: 270px;
+    padding: 10px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
+    box-shadow: 0px 2px 20px rgba(0,0,0,0.5);
+    transition: all .5s ease;
+}
+.card__2 {
+    height: 400px;
+    width: 270px;
+    padding: 10px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
+    box-shadow: 0px 2px 20px rgba(0,0,0,0.5);
+     transition: all .5s ease;
+}
+
+.card__3 {
+    height: 400px;
+    width: 270px;
+    padding: 10px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
+    box-shadow: 0px 2px 20px rgba(0,0,0,0.5);
+     transition: all .5s ease;
+}
+.card__1:hover,
+.card__2:hover,
+.card__3:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 2px 20px rgba(0,0,0,0.5);
+}
+
+.button-div {
+    display: flex;
+    flex: row;
+    justify-content: center;
+}
+    
+#submit {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .9rem;
+    width: 140px;
+    height: 45px;
+    padding: 10px 20px;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    color: rgb(249, 246, 246);
+    background-color: #FF9F66;
+    transition: all .5s ease;
+    cursor:pointer;
+}
+#submit:hover{
+    background-color:#ee6515;
+}
+
+
+/*              SECTION D - COURSES STYLING ENDS HERE                  */
+
