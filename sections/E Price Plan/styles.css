@@ -18,6 +18,7 @@
     align-items: center;
     width: 22rem;
     text-align: center;
+    margin: 1rem auto;
 }
 
 .section_list{
@@ -41,11 +42,14 @@
 
 }
 
-.section_item_primary {
-    background: orange;
-    height: 6rem;
-   
+.section__top{
+    border-bottom: 1px solid black;
 }
+.section__top_orange{
+    background: orange;
+
+}
+
 
 .price-discover{
     font-size: x-small;
@@ -58,4 +62,11 @@
    align-items: center;
 
    
+}
+.price__button{
+    background-color: rgb(255, 145, 0);
+    padding: 0.5rem;
+    width: 6rem;
+
+
 }
