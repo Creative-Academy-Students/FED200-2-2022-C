@@ -426,6 +426,7 @@ span {
 }
 .video-subtext{
     font-size:1.1rem;
+    max-width: 21rem;
 }
 #video-button{
     background-color: #FF9F66;
@@ -462,6 +463,7 @@ span {
 .courses-container{
     height: 100vh;
     width: 100%;
+    padding: 5.5rem 0;
 }
 img{
     height: 200px;
@@ -480,11 +482,11 @@ img{
     order: -1;
 }
 .heading-content h2{
-    font-size: 40px;
+    font-size: 46px;
     font-weight: bold;
 }
 .heading-content-p{
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     max-width: 30rem;
 }
@@ -517,7 +519,6 @@ img{
 }
 .card__rating-text:hover{
     color: #ee6515;
-    text-decoration: underline;
 }
 .card__text-black {
     color: black;
@@ -525,7 +526,6 @@ img{
 }
 .card__text-black:hover{
     color: #FF9F66;
-    text-decoration: underline;
 }
 .card__1 {
     height: 400px;
