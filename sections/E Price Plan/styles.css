@@ -1,9 +1,8 @@
 .price-main{
     background-color: #F5F6F9;
     padding: 3rem;
-    
+    max-height: 5rem;
 }
-
 
 .price-heading{ 
     display: flex;
@@ -17,11 +16,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 22rem;
-
+    width: 22rem;
+    text-align: center;
+    margin: 1rem auto;
 }
-
-
 
 .section_list{
     display: flex;
@@ -43,11 +41,15 @@
 
 
 }
-.section_item_primary {
-    background: orange;
-    height: 6rem;
-   
+
+.section__top{
+    border-bottom: 1px solid black;
 }
+.section__top_orange{
+    background: orange;
+
+}
+
 
 .price-discover{
     font-size: x-small;
@@ -56,6 +58,15 @@
     opacity: 40%;
 }
 .price-list{ 
-    display: flex;
-    margin-bottom: 5rem ;
+   margin-bottom: 5rem;
+   align-items: center;
+
+   
+}
+.price__button{
+    background-color: rgb(255, 145, 0);
+    padding: 0.5rem;
+    width: 6rem;
+
+
 }
