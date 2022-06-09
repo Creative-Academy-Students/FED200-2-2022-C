@@ -1,6 +1,9 @@
 
 /*           SECTION C - VIDEO STYLING STARTS HERE            */
-
+.video-container{
+    height: 100vh;
+    width: 100%;
+}
 .main-container {
     display: flex;
     flex-direction: column;
@@ -46,6 +49,7 @@
 }
 .video-subtext{
     font-size:1.1rem;
+    max-width: 21rem;
 }
 #video-button{
     background-color: #FF9F66;

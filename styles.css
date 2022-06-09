@@ -160,9 +160,10 @@ nav ul li:hover {
 .section__container{
     background: #348F7F;
     /* height: 20rem; */
-    height: auto;
+    /* height: auto; */
     padding-bottom: 1rem;
     margin-top: 10rem;
+    position: relative;
   }
   .section__list {
     display: flex;
@@ -262,6 +263,12 @@ nav ul li:hover {
     }
     
   }
+
+  @media (max-width: 1380px) {
+      #yoga-person {
+          display: none;
+      }
+  }
   
   @media (max-width: 800px) {
     .section__item_primary{
@@ -270,6 +277,18 @@ nav ul li:hover {
     .section__item{
       flex-grow: 1
     }
+  }
+
+  @media (max-width: 1277px) {
+      .section-item {
+          width: 100%;
+      }
+      .section__item_primary {
+        width: 100%;
+      }
+      .header__body {
+          padding-bottom: 10rem;
+      }
   }
   
   /* @media (max-width: 500px){
@@ -291,6 +310,7 @@ nav ul li:hover {
     display: flex;
     position: relative;
     height: 100vh;
+    padding-top: 5rem;
 }
 
 .stats-left {
@@ -343,6 +363,18 @@ nav ul li:hover {
     font-size: 14px;
 }
 
+/* @media (max-width: 1280px) {
+    .stats-container {
+        flex-direction: column;
+        text-align: left;
+    }
+    .stats-right {
+        justify-content: flex-start;
+        padding-right: 6rem;
+    }
+
+} */
+
 /* END OF STATS LEFT */
 
 
@@ -353,7 +385,7 @@ nav ul li:hover {
     font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
-    margin: auto;
+    max-width: 30rem;
 }
 .signature {
     color: #FF9F66;
@@ -380,6 +412,7 @@ span {
 .video-container{
     height: 100vh;
     width: 100%;
+    padding-top: 10rem;
 }
 .main-container {
     display: flex;
@@ -463,7 +496,7 @@ span {
 .courses-container{
     height: 100vh;
     width: 100%;
-    padding: 5.5rem 0;
+    padding: 15rem 0;
 }
 img{
     height: 200px;
@@ -566,6 +599,7 @@ img{
     display: flex;
     flex: row;
     justify-content: center;
+    padding: 3rem 1rem;
 }
     
 #submit {
@@ -573,7 +607,6 @@ img{
     font-size: .9rem;
     width: 140px;
     height: 45px;
-    padding: 10px 20px;
     padding: 15px 20px;
     border: none;
     outline: none;

@@ -1,12 +1,14 @@
-/*              SECTION D - COURSES STYLING STARTS HERE                */
+/*           SECTION D - COURSES STYLING STARTS HERE            */
 
-*{
-    box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
-}
-body {
+
+/* body {
     margin: 0;
     padding: 0;
+} */
+.courses-container{
+    height: 100vh;
+    width: 100%;
+    padding: 5.5rem 0;
 }
 img{
     height: 200px;
@@ -25,11 +27,11 @@ img{
     order: -1;
 }
 .heading-content h2{
-    font-size: 40px;
+    font-size: 46px;
     font-weight: bold;
 }
 .heading-content-p{
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     max-width: 30rem;
 }
@@ -46,12 +48,30 @@ img{
 .card-p {
     max-width: 20rem;
 }
+.fa-star {
+    color: #FF9F66;
+}
 .card {
     flex: 1 1 33%;
     margin: 0 auto;
     justify-content: center;
 }
-
+.card__rating-text {
+    color: #FF9F66;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-left: 2.6rem;
+}
+.card__rating-text:hover{
+    color: #ee6515;
+}
+.card__text-black {
+    color: black;
+    cursor: pointer;
+}
+.card__text-black:hover{
+    color: #FF9F66;
+}
 .card__1 {
     height: 400px;
     width: 270px;
@@ -93,7 +113,7 @@ img{
     justify-content: center;
 }
     
-button {
+#submit {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: .9rem;
     width: 140px;
@@ -108,9 +128,10 @@ button {
     transition: all .5s ease;
     cursor:pointer;
 }
-button:hover{
+#submit:hover{
     background-color:#ee6515;
 }
 
 
 /*              SECTION D - COURSES STYLING ENDS HERE                  */
+
