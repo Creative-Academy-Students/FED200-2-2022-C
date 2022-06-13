@@ -1,9 +1,9 @@
-@import "sections/A\ Header/styles.css";
-@import "sections/B\ Relax/styles.css";
-@import "sections/C\ Video/styles.css";
-@import "sections/D\ Courses/.css";
-@import "sections/E\ Price\ Plan/styles.css";
-@import "sections/F\ Testimonial/styles.css";
+@import "sections/a-header/styles.css";
+@import "sections/b-relax/styles.css";
+@import "sections/c-video/style.css";
+@import "sections/d-courses/styles.css";
+@import "sections/e-price-plan/styles.css";
+@import "sections/f-testimonial/styles.css";
 @import "sections/g-subscribe/styles.css";
 @import "sections/i-join/styles.css";
 @import "sections/i-footer/styles.css";
