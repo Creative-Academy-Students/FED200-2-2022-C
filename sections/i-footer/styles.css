@@ -1,8 +1,15 @@
 .footer {
     display: flex;
-    background: red;
+    background: rgb(255, 255, 255);
     justify-content: space-between;
+    font-family: 'Lato', sans-serif;
 }
+
+.footer__logo{
+    width: 4rem;
+    height: 3rem;
+}
+
 
 .footer__col{
     flex-direction: column;
@@ -10,9 +17,8 @@
 }
 
 .footer__button{
-
     border: 1px solid white;
-    color: orange;
+    color: rgba(255, 159, 102, 1);
     background: white;
     cursor: pointer;
     padding: 0.75rem 1.5rem;
@@ -20,10 +26,11 @@
     font-size: 1rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
+.footer__button:hover{
+background: rgb(255, 171, 115, 0.3);
 
-.footer__button:hover {
-    color: orange;
 }
+
 
 .footer__icon-list{
     list-style: none;

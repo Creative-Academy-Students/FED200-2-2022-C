@@ -9,6 +9,7 @@
     align-items: center;
     width: auto;
     padding: 3rem;
+    font-family: 'Lato', sans-serif;
 }
 
 .newsletter_boarder{
@@ -35,13 +36,18 @@
    
 }
 
-button{ 
-    background-color: rgb(255, 145, 0);
+.subscribe__button{ 
+    background-color: rgba(255, 159, 102, 1);
     padding: 0.5rem;
     width: 6rem;
     color: white;
     border-radius: 0.1rem;
     border: none;
+}
+.subscribe__button:hover{
+    background: rgba(255, 255, 255, 1);
+    color: orange;
+    border: 1px solid rgba(255, 159, 102, 1);
 }
 
 input{

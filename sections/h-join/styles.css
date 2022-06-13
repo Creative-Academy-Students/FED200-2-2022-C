@@ -4,17 +4,19 @@
     align-items: center;
     max-width: 800px;
     margin: auto;
+    font-family: 'Lato', sans-serif;
 }
 
 
-/* .join-left{
+.join-left{
     display: flex;
     flex-direction: column;
     align-items: left;
     max-width: auto;
     padding: 3rem;
     justify-content: center;
-} */
+    justify-content: space-between;
+}
 
 .join-heading{
     display: flex;
@@ -71,8 +73,8 @@ textarea{
     font-size: smaller;
 }
 
-.join-button{ 
-    background-color: orange;
+.join__button{ 
+    background-color: rgba(255, 159, 102, 1);
     padding: 0.5rem;
     width: 6rem;
     border-radius: 0.3rem;
@@ -81,3 +83,8 @@ textarea{
     margin-top: 2rem;
 }
 
+.join__button:hover{
+    background: rgba(255, 255, 255, 1);
+    color: rgba(255, 159, 102, 1);
+    border: 1px solid rgba(255, 159, 102, 1);
+}
