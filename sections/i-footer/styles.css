@@ -1,5 +1,7 @@
 .footer {
     display: flex;
+    background: red;
+    justify-content: space-between;
 }
 
 .footer__col{
@@ -17,7 +19,10 @@
     border-radius: 12rem;
     font-size: 1rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    
+}
+
+.footer__button:hover {
+    color: orange;
 }
 
 .footer__icon-list{
